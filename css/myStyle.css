@@ -8,3 +8,61 @@
   border-style: solid;
   border-radius: 50%;
 }
+
+#demo {
+	height: 650px;
+}
+
+.button1 {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.demo-image {
+	width: 220px;
+	height: 414px;
+	margin-top:-90px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+/*******recommencer  and terminer*******/
+.text-size {
+	font-size: 20px;
+}
+
+/******end next and previous***/
